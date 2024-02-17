@@ -10,4 +10,6 @@ config.ini
 *.db
 *.csv
 *.py
+*_psycache_
+*.env
 #1 2 3 5
