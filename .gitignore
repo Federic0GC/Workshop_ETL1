@@ -1,0 +1,12 @@
+# Ignorar archivos de caché
+*.log
+*.txt
+
+# Ignorar la carpeta de archivos temporales
+temp/
+
+# Ignorar archivos de configuración específicos
+config.ini
+*.db
+*.csv
+*.py
