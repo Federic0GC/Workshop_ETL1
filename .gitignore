@@ -12,4 +12,8 @@ config.ini
 *.py
 *_psycache_
 *.env
+*.ipynb
+*.ipynb_checkpoints
 #1 2 3 5
+__pycache__/
+
