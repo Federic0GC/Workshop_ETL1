@@ -8,8 +8,8 @@ temp/
 # Ignorar archivos de configuración específicos
 config.ini
 *.db
-*.csv
-*.py
+
+
 *_psycache_
 *.env
 *.ipynb
