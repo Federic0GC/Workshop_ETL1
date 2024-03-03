@@ -15,23 +15,27 @@ db_host = os.getenv("DB_HOST")
 db_database = os.getenv("DB_DATABASE")
 
 
-mysql_connection = pymysql.connect(db=db_database, user=db_user, passwd=db_password)
+Workshop_1_mysql_connection = pymysql.connect(db=db_database, user=db_user, passwd=db_password)
 
 try:
     
-    mysql_connection_str = f'mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_database}'
+    Workshop_1_mysql_connection_str = f'mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_database}'
 
-    mysql_db_connection = create_engine(mysql_connection_str)
-    print("Conexion hecha con la base de datos")
+    Workshop_1_mysql_db_connection = create_engine(Workshop_1_mysql_connection_str)
+    print("Connection made to the database...")
 
-    candidates_df.to_sql('candidates', con=mysql_db_connection, index=False, if_exists='replace')
-    print("Datos cargados correctamente en la tabla 'candidates'.")
+    candidates_df.to_sql('candidates', con=Workshop_1_mysql_db_connection, index=False, if_exists='replace')
+    print("Data loaded correctly in the 'candidates' table'")
+    print("Check if the table was successfully added to your database (MySQL)")
 
 except pymysql.Error as e:
     
-    print(f"Error al conectar a la base de datos MySQL: {e}")
+    print(f"Failed to connect to MYSQL database: {e}")
 
 finally:
     
-    if 'mysql_db_connection' in locals():
-        mysql_db_connection.dispose()
+    if 'workshop_1_mysql_db_connection' in locals():
+        Workshop_1_mysql_db_connection.dispose()
+    print("Data connection and upload done correctly, connection closed")
+
+    
