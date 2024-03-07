@@ -1,18 +1,23 @@
-# Ignorar archivos de caché
+#Archivos de caché
 *.log
 *.txt
 
-# Ignorar la carpeta de archivos temporales
+#Ccarpeta de archivos temporales
 temp/
 
-# Ignorar archivos de configuración específicos
+#Archivos de configuración específicos
 config.ini
-*.db
+*.db -- Pruebas qu se hicieron con sqlite al inicio del proyecto para despues comenzar a trabjar con una base de datos real y no temporal
 
-
+#Cache
 *_psycache_
+
+#Configuracion de las variables de entorno
 *.env
+
+#Checkpoints del desarrollo del notebook 
 *.ipynb_checkpoints
-#1 2 3 5
+
+#Cache especifico de carpetas individuales
 __pycache__/
 
