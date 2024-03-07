@@ -3,7 +3,7 @@
 ![Ejemplo](https://ix-cdn.b2e5.com/images/208444/208444_30e22a1f13434888a1e7b330d0bf087f_1600957198.png)
 
 # Situacion
-## Se nos da un archivo csv llamado Candidates, en el cual encontramos un total de 50000 registros los cuales abarcan la siguiente informacion: 
+### Se nos da un archivo csv llamado Candidates, en el cual encontramos un total de 50000 registros los cuales abarcan la siguiente informacion: 
 - First Name: Nombre del candidato
 - Last Name: Apellido del candidato
 - Email: Correo electrónico del candidato
@@ -18,7 +18,8 @@
 - El valor en el campo de Code Challenge Score debe ser mayor o igual a 7, y la misma restriccion para el campo Tecnical Interview Score, si el registro solo cumple solo con una de estas restricciones, su valor en el registro sera "NO" y si el registro cumple con las dos restricciones el valor del registro sera "YES".
 - Hired: Indica si el candidato fue contratado o no
 # Herramientas utilizadas para este proyecto
-- Python
+![Ejemplo](https://miro.medium.com/v2/resize:fit:1137/1*OnDVcS17HTWZ2L2vPaaQ1A.png)
+- Python 
 - MySQL
 - Jupyter Notebook
 - Power BI
