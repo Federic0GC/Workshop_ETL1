@@ -6,7 +6,7 @@
 temp/
 
 #Archivos de configuración específicos
-config.ini
+*config.ini
 *.db -- Pruebas qu se hicieron con sqlite al inicio del proyecto para despues comenzar a trabjar con una base de datos real y no temporal
 
 #Cache
