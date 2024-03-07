@@ -24,3 +24,7 @@
 - Jupyter Notebook
 - Power BI
 - Variables de entorno para la encriptqacion de las credenciales
+
+# Guia del repositorio
+### En este repositorio encontraras todo el proceso, de lectura, migracion y transformacion de datos pero es importante que conozcas el ¿por que? de cada carpeta y archivo
+
